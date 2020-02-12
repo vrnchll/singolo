@@ -1,0 +1,20 @@
+body {
+margin: 0;
+font-size: 16px;
+}
+
+header{
+    width: 1020px;
+    height: 89px;
+    background-color: #2d303a;
+}
+header h2 {
+    width: 115px;
+    height: 20px;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 6.32px;
+    text-transform: uppercase;
+    }
