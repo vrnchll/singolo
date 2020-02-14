@@ -30,11 +30,11 @@ span{
 .header__logo{
     width: 115px;
     height: 20px;
+    font-family: "Lato-Bold";
     color: #ffffff;
-    font-family: Lato;
     font-size: 25px;
     font-weight: 700;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.1em;
     line-height: 6.32px;
     text-transform: uppercase;
     padding: 34px 36px 40px ;
@@ -44,8 +44,60 @@ span{
 {
     display: inline-block;
     vertical-align: top;
-    margin: 0 10px;
+    margin: 40px 18px auto;
     color:#fff;
     text-decoration: none;
     transition: color .2s linear;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 6.32px;
+}
+.new__link__current
+{
+    color:red;
+    display: inline-block;
+    vertical-align: top;
+    margin: 40px 18px auto;
+    text-decoration: none;
+    transition: color .2s linear;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 6.32px;
+}
+.bg
+{
+    width: 100%;
+    max-width: 1020px;
+    height: 600px;
+    background-color: #f06c64;
+    position: absolute;
+}
+.bg{
+    display: flex;
+    justify-content: space-between;
+}
+.image_phone{
+    border-radius: 20%;
+    margin: 52px 112px auto;
+    width: 215px;
+height: 458px;
+background-color: #f2f2f2;
+}
+.image1_in_phone{
+    margin: 124px 126px auto;
+}
+.shadow {
+    margin: 77px 137px auto;
+}
+.image_gor_phone
+{
+    border-radius: 20%;
+    margin: 175px  auto 100px auto;
+    width: 458px;
+    height: 215px;
+    background-color: #f2f2f2;
 }
