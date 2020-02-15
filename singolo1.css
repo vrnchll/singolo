@@ -76,28 +76,23 @@ span{
     background-color: #f06c64;
     position: absolute;
 }
+
 .bg{
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 }
+
 .image_phone{
-    border-radius: 20%;
-    margin: 52px 112px auto;
+    
+    margin: 52px 110px auto;
     width: 215px;
 height: 458px;
-background-color: #f2f2f2;
 }
-.image1_in_phone{
-    margin: 124px 126px auto;
-}
-.shadow {
-    margin: 77px 137px auto;
-}
+
 .image_gor_phone
 {
-    border-radius: 20%;
-    margin: 175px  auto 100px auto;
-    width: 458px;
-    height: 215px;
-    background-color: #f2f2f2;
+    
+    padding: 174px 0 0 73px;
+   /* margin: 172px 150px 150px auto;*/
+ 
 }
