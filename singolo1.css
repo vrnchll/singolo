@@ -1,3 +1,4 @@
+@import './fonts.css';
 html {
     font-size: 10px;
     height: 100%;
@@ -90,12 +91,12 @@ span{
 
 .image_phone{
   margin-left:110px;
-  margin-top:51px;
+  margin-top:52px;
 }
 
 .image_gor_phone
 {
-    margin-top:171px;
+    margin-top:172px;
     margin-left:68px;
  
 }
@@ -114,4 +115,49 @@ span{
     width: 100%;
     height: 496px;
 background-color: #f2f2f2;
+display: flex;
+flex-direction: column;
+}
+.infobox__info{
+   
+    display: flex;
+    flex-direction: column;
+}
+.infobox__info--title{
+    font-family: "Lato Black";
+    font-size: 30px;
+    font-weight: 400;
+    color: #666d89;
+    margin-top:65px;
+    margin-left: 40px;
+}
+.infobox__info--description{
+    color: #767e9e;
+font-family: 'Lato';
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+margin-top:17px;
+margin-left:40px;
+}
+.infobox__row{
+display: flex;
+width: 90%;
+justify-content: space-between;
+}
+.infobox__row-item{
+
+    display: flex;
+}
+.item__text--title{
+    color: #666d89;
+font-family: "Lato Black";
+font-size: 18px;
+font-weight: 400;
+}
+.item__text--description{
+    color: #767e9e;
+font-family: Lato;
+font-size: 12px;
+font-weight: 400;
 }
